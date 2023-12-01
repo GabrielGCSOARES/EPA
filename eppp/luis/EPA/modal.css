@@ -1,0 +1,40 @@
+.modal {
+    
+    width: 26vw;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(80, 73, 73);
+    transition: 500ms;
+    color: white;
+    transform: translateY(100%); 
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+   
+    
+}
+.aberto{
+    display: flex;
+    transform: translateY(0%);
+    
+
+    
+}
+.modal #x{
+    display: flex;
+    justify-content: flex-start;
+    font-size: xx-large;
+    text-decoration: none;
+}
+.modal a{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 580px) {
+    .modal{
+        width: 100vw;
+    }
+}
